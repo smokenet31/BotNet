@@ -1,0 +1,2 @@
+# BotNet
+Bot para Discord
