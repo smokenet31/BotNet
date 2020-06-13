@@ -1,8 +1,10 @@
 
+module.exports.verifica = function(mensaje) {
+    if (mensaje.includes('!') && mensaje.slice(0, 1) === '!'){
+        if(mensaje.includes('!clear')){
 
-exports.on = function(mensaje) {
-    if (mensaje.includes('!') && mensaje.slice(0, 1) === '!' ){ 
-        return true;
+            return true;
+        }
         }
     }
 
